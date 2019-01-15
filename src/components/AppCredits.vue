@@ -1,6 +1,5 @@
 <template>
   <footer>
-    <small>© <b><a href="https://twitter.com/jimmerioles" target="_blank" rel="noopener">Jim Merioles</a></b> {{ year }} - A <cite>freeCodeCamp</cite> Project</small>
   </footer>
 </template>
 
@@ -21,6 +20,7 @@ export default {
 footer {
   text-align: center;
   position: absolute;
+  top: 30px;
   bottom: 10px;
   visibility: hidden;
 }
